@@ -2,3 +2,5 @@ module QSerialPort
 plugin SerialPort
 StandardBaudCombo	1.0	StandardBaudCombo.qml
 AvailablePortsCombo	1.0	AvailablePortsCombo.qml
+StandardBaudMenu	1.0	StandardBaudMenu.qml
+AvailablePortsMenu	1.0	AvailablePortsMenu.qml

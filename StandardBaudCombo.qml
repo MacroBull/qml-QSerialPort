@@ -17,6 +17,7 @@ ComboBox {
 	Component.onCompleted: {
 		var list = globalInfo.standardBaudRates
 		for (var i in list){
+			if (9600 == list[i]) currentIndex = i;
 			model.append( {text:list[i]} )
 		}
 	}

@@ -7,7 +7,7 @@ ComboBox {
 	property string portName;
 	property variant portDelegateList;
 
-	portName: portDelegateList[currentIndex].split(':')[0];
+	portName: portDelegateList[currentIndex]?portDelegateList[currentIndex].split(':')[0]:"";
 
 	model:ListModel{}
 
